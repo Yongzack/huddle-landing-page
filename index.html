@@ -3,140 +3,139 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>huddle landing page</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="project-assets/images/favicon-32x32.png">
+  <title>Huddle Landing Page</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="./style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <!-- Add FontAwesome CDN link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-<header>
-  <nav class=" row nav-row">
-    <div class="col-6">
-      <img src="./images/logo.svg" class="logo">
-    </div>
-    <div class="col-6">
-      <button class="cta-btn">Try It Free</button>
-    </div>
-  </nav>
-  <div class="hero-section">
-    <div class=" col-5 hero-content">
-      <h1>Build The Community Your Fans Will Love</h1>
-      <p>Huddle re-imagines the way we build communities. <br> You have a voice, but so does your audience. <br> Create connections with users as you engage genuinely</p>
-      <button class="hero-btn">Get Started For Free</button>
-    </div>
-    <div class="hero-image">
-      <img src="./images/illustration-mockups.svg" alt="Illustration illustration-mockups">
-    </div>
-  </div>
-</header>
-
-<main>
-  <section>
-    <div class="row reverse">
-      <div class="col-6 img-section float-right-img">
-        <img src="./images/illustration-grow-together.svg" alt="Grow Together">
-      </div>
-      <div class="col-6 content-section "> 
-        <h2>Grow Together</h2>
-        <p>Generate meaningful discussions with your audience and build a strong, loyal community.
-          Think of the insightful conversations you miss out on with a feedback form.</p>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="row">
-      <div class="col-6 img-section">
-        <img src="./images/illustration-flowing-conversation.svg" alt="Flowing Conversation">
-      </div>
-      <div class="col-6 content-section">
-        <h2>Flowing Conversations</h2>
-        <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads
-          have just-in-time loading for a more natural flow</p>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="row reverse">
-      <div class="col-6 img-section float-right-img">
-        <img src="./images/illustration-your-users.svg" alt="Your Users">
-      </div>
-      <div class="col-6 content-section">
-        <h2>Your Users</h2>
-        <p>It takes no time at all to integrate Huddle with your app's authentication solution.
-          This means, once signed in to your app, your users can start chatting immediately</p>
-      </div>
-    </div>
-  </section>
-  
-</main>
-<section>
-  <div class="cta-section">
-    <div class="row cta-row">
-      <div class="col-12 cta-content">
-        <h2>Ready To Build Your Community?</h2>
-        <button class="cta-button">Get Started For Free</button>
-      </div>
-    </div>
-
-  </div>
-</section>
-<footer>
-  <div class="footer-container">
-    <!-- Logo, contact info and navigation side by side -->
-    <div class="footer-top">
-      <div class="footer-left">
-        <img src="./images/logo.svg" class="footer-logo" alt="logo">
-        <!-- Contact info directly under logo -->
-        <div class="contact-list">
-          <ul>
-            <li class="location">We are located in Hong Kong, Kakuma 1, Next to Youth Center 2</li>
-            <li class="phone">+(254)-711-154-531</li>
-            <li class="email">yongdit3@gmail.com</li>
-          </ul>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <img src="./images/logo.svg" alt="Huddle" class="logo">
+        <button class="btn btn-secondary">Try It Free</button>
+      </nav>
+      <div class="hero">
+        <div class="hero-content">
+          <h1>Build The Community Your Fans Will Love</h1>
+          <p>
+            Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+            Create connections with your users as you engage in genuine discussion.
+          </p>
+          <button class="btn btn-primary">Get Started For Free</button>
+        </div>
+        <div class="hero-image">
+          <img src="./images/illustration-mockups.svg" alt="Illustration mockups">
         </div>
       </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="features">
+        <!-- Feature 1 -->
+        <div class="feature-card">
+          <div class="feature-content">
+            <h2>Grow Together</h2>
+            <p>
+              Generate meaningful discussions with your audience and build a strong, loyal community. 
+              Think of the insightful conversations you miss out on with a feedback form.
+            </p>
+          </div>
+          <div class="feature-image">
+            <img src="./images/illustration-grow-together.svg" alt="Grow Together">
+          </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-card reverse">
+          <div class="feature-content">
+            <h2>Flowing Conversations</h2>
+            <p>
+              You wouldn't paginate a conversation in real life, so why do it online? 
+              Our threads have just-in-time loading for a more natural flow.
+            </p>
+          </div>
+          <div class="feature-image">
+            <img src="./images/illustration-flowing-conversation.svg" alt="Flowing Conversations">
+          </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-card">
+          <div class="feature-content">
+            <h2>Your Users</h2>
+            <p>
+              It takes no time at all to integrate Huddle with your app's authentication solution. 
+              This means, once signed in to your app, your users can start chatting immediately.
+            </p>
+          </div>
+          <div class="feature-image">
+            <img src="./images/./illustration-your-users.svg" alt="Your Users">
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-card">
+        <h2>Ready To Build Your Community?</h2>
+        <button class="btn btn-primary">Get Started For Free</button>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-logo">
+        <img src="./images/logo.svg" alt="Huddle" class="logo">
+      </div>
       
-      <!-- All navigation links side by side -->
-      <div class="primary-nav">
-        <div class="nav-columns">
-          <ul class="nav-footer-1">
+      <div class="footer-content">
+        <div class="footer-info">
+          <div class="contact-item">
+            <img src="./images/icon-location.svg" alt="Location">
+            <p>We Are Located At Hong-Kong Kakuma1 Near Youth Centre two </p>
+          </div>
+          <div class="contact-item">
+            <img src="./images/icon-phone.svg" alt="Phone">
+            <p>+254-711-154-531</p>
+          </div>
+          <div class="contact-item">
+            <img src="./images/icon-email.svg" alt="Email">
+            <p>yongdit3@gmail.com</p>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <ul>
             <li><a href="#">About Us</a></li>
             <li><a href="#">What We Do</a></li>
-            <li><a href="#">FAQs</a></li>
+            <li><a href="#">FAQ</a></li>
           </ul>
-          <ul class="nav-footer-2">
-            <li><a href="#">Careers</a></li>
+          <ul>
+            <li><a href="#">Career</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Contact Us</a></li>
           </ul>
-          
-          <!-- Social icons moved here -->
-          <div class="social-icons">
-            <ul>
-              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-            </ul>
-          </div>
+        </div>
+        
+        <div class="footer-social">
+          <a href="" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
+      
+      <div class="copyright">
+        <p>&copy; Copyright 2025 Yongzack. All rights reserved.</p>
+      </div>
     </div>
-    
-    <!-- Removed the social icons row since they've been moved -->
-    
-    <div class="copyright">
-      <p>&copy; Copyright 2025 Yong Zachariah. All Rights Reserved</p>
-    </div>
-    <div class="attribution">
-      <p>Built with love by <a href="#">Yong Zack</a></p>
-    </div>
-  </div>
-</footer>
-
+  </footer>
 </body>
 </html>
